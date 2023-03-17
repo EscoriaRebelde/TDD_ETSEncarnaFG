@@ -47,7 +47,7 @@ describe('canReconfigure', () => {
   })
 
   it('should return false if strings provided have different lenght', () => {
-    expect(canReconfigure('abc', 'de')).toBe(false)
+    expect(canReconfigure('abc', 'def')).toBe(false)
   })
 
   it('should return false if strings provided have different length even with same unique letters', () => {
